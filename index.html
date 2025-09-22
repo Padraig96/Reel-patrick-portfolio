@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Aguegbodo Patrick Tobechukwu — Multimedia Video Editor, Thumbnail Designer & YouTube Creator. Movie & Character analysis, thumbnails, voiceover, and video editing services.">
+  <title>ReelPatrick — Multimedia Video Editor & YouTube Creator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg: #0F1113;
+      --card: #0F1720;
+      --muted: #9AA4A6;
+      --text: #F5F5F5;
+      --accent: #800000;
+      --accent-2: #C49A6C;
+      --panel: #F5E9E0;
+      --glass: rgba(255,255,255,0.04);
+      --radius: 12px;
+      --maxwidth: 1100px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto; color:var(--text);background:linear-gradient(180deg,var(--bg),#050506);padding:32px 16px;display:flex;justify-content:center;}
+    .wrap{width:100%;max-width:var(--maxwidth);}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px;}
+    .brand{display:flex;align-items:center;gap:14px}
+    .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;font-weight:800;color:var(--panel);font-family:'Playfair Display';font-size:20px;}
+    nav{display:flex;gap:18px;align-items:center}
+    nav a{color:var(--muted);text-decoration:none;font-weight:600;font-size:14px}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:32px;align-items:center;margin-bottom:30px}
+    .intro h2{font-family:'Playfair Display',serif;font-size:34px;margin:0 0 8px}
+    .tag{color:var(--accent);font-weight:700;margin-bottom:8px;font-size:13px}
+    .card{background:var(--card);padding:18px;border-radius:14px;box-shadow:0 8px 30px rgba(2,6,10,0.6)}
+    .skills{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}
+    .skill{background:var(--glass);padding:8px 12px;border-radius:999px;font-weight:600;color:var(--text);font-size:13px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+    .work{background:linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.6));border-radius:12px;padding:12px;position:relative;overflow:hidden;min-height:140px;display:flex;flex-direction:column;justify-content:end;}
+    form{display:grid;gap:10px}
+    input,textarea{padding:12px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:var(--text)}
+    footer{margin-top:36px;color:var(--muted);font-size:13px;padding:18px 0}
+    @media (max-width:980px){ .hero{grid-template-columns:1fr;} .grid{grid-template-columns:repeat(2,1fr)} }
+    @media (max-width:560px){ nav{display:none} .grid{grid-template-columns:1fr} body{padding:18px} }
+    .lightbox{position:fixed;inset:0;background:rgba(0,0,0,0.8);display:none;align-items:center;justify-content:center;padding:20px}
+    .lightbox.active{display:flex}
+    .lightbox iframe{width:90%;height:60vh;border:0;border-radius:8px}
+    .close{position:absolute;top:22px;right:22px;background:rgba(255,255,255,0.06);border-radius:999px;padding:8px;cursor:pointer}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <img src="assets/logo.png" alt="ReelPatrick Logo" class="logo" style="height:56px; width:auto;">
+        <div>
+          <h1>Aguegbodo Patrick Tobechukwu</h1>
+          <p style="margin:0;font-size:13px;color:var(--muted)">Multimedia Video Editor • Thumbnail Designer • YouTube Creator</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#work">Portfolio</a>
+        <a href="#services">Services</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="intro">
+          <div class="tag">Multimedia Specialist & Storyteller</div>
+          <h2>Video editing, thumbnail design, and movie analysis that hooks viewers from 0–100.</h2>
+          <p style="color:var(--muted)">I’m a multimedia creator focused on cinematic storytelling, character psychology, and audience-retention-driven edits for YouTube.</p>
+
+          <div class="skills" aria-hidden>
+            <span class="skill">Premiere Pro</span>
+            <span class="skill">DaVinci Resolve</span>
+            <span class="skill">CapCut</span>
+            <span class="skill">Canva</span>
+            <span class="skill">YouTube SEO</span>
+            <span class="skill">Voiceover</span>
+          </div>
+
+          <div style="margin-top:12px;color:var(--muted);font-size:13px">Located remotely • Available for freelance & remote collaborations</div>
+        </div>
+
+        <aside class="card">
+          <h3 style="margin-top:0">Quick Contact</h3>
+          <p><strong>Email</strong><br><a href="mailto:patrickaguegbodo@gmail.com">patrickaguegbodo@gmail.com</a></p>
+          <p><strong>Phone</strong><br><a href="tel:+2347083139939">+234 708 313 9939</a></p>
+          <p><strong>YouTube</strong><br><a href="https://youtube.com/@reelpatrick?si=2bCZphL00GasZ1jM" target="_blank" rel="noopener">/reelpatrick</a></p>
+          <p class="small" style="color:var(--muted)">Download resume (PDF): <a href="assets/ReelPatrick_Resume.pdf" download>Download</a></p>
+        </aside>
+      </section>
+
+      <section id="services">
+        <h2 style="margin:0 0 10px">Services & What I Do</h2>
+        <p style="color:var(--muted);font-size:13px">From end-to-end video production to thumbnail design and SEO-optimized YouTube uploads.</p>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px">
+          <div class="card">
+            <h3 style="margin:0 0 6px">Video Editing</h3>
+            <p style="color:var(--muted)">Full edits (research → script → voice → edit → grade). Tools: Premiere Pro, DaVinci Resolve, CapCut.</p>
+          </div>
+          <div class="card">
+            <h3 style="margin:0 0 6px">Thumbnail & Visuals</h3>
+            <p style="color:var(--muted)">Thumbnail design, motion assets, and attention-grabbing visual hooks. Tools: Canva, CorelDraw.</p>
+          </div>
+          <div class="card">
+            <h3 style="margin:0 0 6px">YouTube Optimization</h3>
+            <p style="color:var(--muted)">Titles, descriptions, tags, and retention strategies tailored to grow watch-time and subscribers.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" style="margin-top:24px">
+        <h2 style="margin:0 0 8px">Portfolio</h2>
+        <p style="color:var(--muted);font-size:13px">Selected work and viral shorts. Click any item to preview on YouTube (opens in lightbox).</p>
+
+        <div class="grid" aria-live="polite">
+          <article class="work card" tabindex="0">
+            <img src="assets/thumb1.jpg" alt="Thumbnail: Hannibal Lecter analysis">
+            <div>
+              <h3>Why Hannibal Lecter Haunts Us</h3>
+              <p style="color:var(--muted);font-size:13px">Video essay — psychology breakdown & editing highlights.</p>
+              <div style="margin-top:8px"><a href="#" class="btn btn-primary" data-youtube="https://www.youtube.com/embed/VIDEO_ID_1">Watch</a></div>
+            </div>
+          </article>
+
+          <article class="work card" tabindex="0">
+            <img src="assets/thumb2.jpg" alt="Thumbnail: Smartest villains compilation">
+            <div>
+              <h3>Top 5 Smartest Villains</h3>
+              <p style="color:var(--muted);font-size:13px">Scripted & psychology-driven breakdown.</p>
+              <div style="margin-top:8px"><a href="#" class="btn btn-primary" data-youtube="https://www.youtube.com/embed/VIDEO_ID_2">Watch</a></div>
+            </div>
+          </article>
+
+          <article class="work card" tabindex="0">
+            <img src="assets/thumb3.jpg" alt="Thumbnail: Quick-hit Red Hulk Short">
+            <div>
+              <h3>Red Hulk — Quick Hit</h3>
+              <p style="color:var(--muted);font-size:13px">Short-form analysis — viral short with strong hook.</p>
+              <div style="margin-top:8px"><a href="#" class="btn btn-primary" data-youtube="https://www.youtube.com/embed/VIDEO_ID_3">Watch</a></div>
+            </div>
+          </article>
+
+        </div>
+
+      </section>
+
+      <section id="contact" style="margin-top:28px">
+        <h2>Contact / Hire</h2>
+        <p style="color:var(--muted);font-size:13px">Prefer email? <a href="mailto:patrickaguegbodo@gmail.com">patrickaguegbodo@gmail.com</a></p>
+
+        <div style="display:grid;grid-template-columns:1fr 420px;gap:18px;margin-top:12px">
+          <div class="card">
+            <form action="https://formspree.io/f/your_form_id" method="POST">
+              <div style="display:flex;gap:10px">
+                <input type="text" name="name" placeholder="Your name" required style="flex:1">
+                <input type="email" name="email" placeholder="Your email" required style="flex:1">
+              </div>
+              <input type="text" name="subject" placeholder="Subject">
+              <textarea name="message" placeholder="Tell me about your project" required></textarea>
+              <div style="display:flex;justify-content:flex-end">
+                <button type="submit" style="padding:12px 16px;border-radius:10px;background:#800000;color:#F5E9E0;border:0">Send message</button>
+              </div>
+            </form>
+          </div>
+
+          <aside class="card">
+            <h3 style="margin-top:0">Availability & Rates</h3>
+            <p style="color:var(--muted)">Open to freelance projects, remote collaborations, and long-term content partnerships. Rates depend on scope — contact for a custom quote.</p>
+            <h4 style="margin-bottom:8px">Quick links</h4>
+            <p style="font-size:13px"><a href="https://youtube.com/@reelpatrick?si=2bCZphL00GasZ1jM" target="_blank" rel="noopener">YouTube Channel</a> · <a href="mailto:patrickaguegbodo@gmail.com">Email</a></p>
+            <p style="color:var(--muted);font-size:13px">Languages: English (fluent)</p>
+          </aside>
+        </div>
+      </section>
+
+      <footer>
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+          <div>© 2025 Aguegbodo Patrick Tobechukwu — ReelPatrick</div>
+          <div style="font-size:13px;color:var(--muted)">Designed for production handoff. Contact: <a href="mailto:patrickaguegbodo@gmail.com">patrickaguegbodo@gmail.com</a></div>
+        </div>
+      </footer>
+
+    </main>
+  </div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-hidden="true">
+    <button class="close" id="lbclose" aria-label="close">✕</button>
+    <iframe id="lbframe" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen src=""></iframe>
+  </div>
+
+  <script>
+    document.querySelectorAll('[data-youtube]').forEach(btn=>{
+      btn.addEventListener('click',e=>{
+        e.preventDefault();
+        const src = btn.getAttribute('data-youtube');
+        const lb = document.getElementById('lightbox');
+        const frame = document.getElementById('lbframe');
+        frame.src = src + '?rel=0&autoplay=1';
+        lb.classList.add('active');
+        lb.setAttribute('aria-hidden','false');
+      })
+    });
+    document.getElementById('lbclose').addEventListener('click',()=>{
+      const lb = document.getElementById('lightbox');
+      const frame = document.getElementById('lbframe');
+      frame.src = '';
+      lb.classList.remove('active');
+      lb.setAttribute('aria-hidden','true');
+    });
+    window.addEventListener('keydown',e=>{if(e.key==='Escape'){document.getElementById('lbclose').click();}})
+  </script>
+
+</body>
+</html>
