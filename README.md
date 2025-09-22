@@ -1,5 +1,3 @@
-# Reel-patrick-portfolio
-Portfolio — Aguegbodo Patrick (ReelPatrick): video editor, thumbnail designer &amp; YouTube creator
 # Reel Patrick-portfolio
 
 **Portfolio — Aguegbodo Patrick (ReelPatrick)**  
